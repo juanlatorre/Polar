@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Polar</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="controles">
+            <button class="btn active" id="favs-btn" onclick="openTab('favs')">favoritos.</button>
+            <button class="btn" id="notas-btn" onclick="openTab('notas')">notas.</button>
+        </div>
+        <div class="contenido">
+            <div id="favs" class="tab">
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Pikachu</li>
+                </ul>
+            </div>
+
+            <div id="notas" class="tab hidden">
+                <p>notas</p>
+            </div>
+        </div>
+    </div>
+
+    <script defer src="index.js"></script>
+</body>
+
+</html>

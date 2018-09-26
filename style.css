@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #f8a5c2;
+}
+
+.controles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.btn {
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0.5em;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.tab {
+  padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.btn.active,
+button:hover {
+  background: #786fa6;
+  color: white;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.contenidos {
+  flex: 1 1 auto;
+}
+
+.hidden {
+  display: none !important;
+}
