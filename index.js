@@ -74,3 +74,15 @@ for (var categoria in favs_config) {
     }
   }
 }
+
+// Notas
+
+var notasTextArea = document.getElementById("notas-textarea");
+
+window.addEventListener("load", function load(event) {
+  notasTextArea.value = localStorage.getItem("nota");
+
+  notasTextArea.addEventListener("keyup", function() {
+    localStorage.setItem("nota", notasTextArea.value);
+  });
+});

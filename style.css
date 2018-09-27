@@ -143,3 +143,21 @@ button:focus {
   visibility: visible;
   opacity: 1;
 }
+
+textarea {
+  margin-top: 1.5em;
+  resize: none;
+  background: rgba(207, 106, 135, 0.5);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  width: 80vw;
+  height: 60vh;
+  padding: 1em;
+}
+
+textarea:hover,
+textarea:active,
+textarea:focus {
+  outline: 0;
+}
