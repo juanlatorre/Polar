@@ -64,9 +64,11 @@ for (var categoria in favs_config) {
     for (uri in favs_config[categoria]) {
       var x = document.getElementById(categoria);
       x.innerHTML +=
-        "<li> <a href='" +
+        "<li class='tooltip'> <a href='" +
         favs_config[categoria][uri] +
-        "'><img class='favicon' src='https://www.google.com/s2/favicons?domain=" +
+        "'><img class='favicon' title='" +
+        favs_config[categoria][uri] +
+        "' src='https://www.google.com/s2/favicons?domain=" +
         favs_config[categoria][uri] +
         "' height='20px;' width='auto'></a></li>";
     }
