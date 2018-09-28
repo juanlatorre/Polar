@@ -4,7 +4,7 @@ New Tab for Chrome/Firefox
 
 ## Preview
 
-![acceso rapido](https://i.imgur.com/XZzMzjd.png)
+![acceso rapido](https://i.imgur.com/JTpCILi.png)
 ![notas](https://i.imgur.com/ZHDjh1j.png)
 
 ## Todo

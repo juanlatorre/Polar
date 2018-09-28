@@ -1,23 +1,23 @@
 // contenido de Favoritos
 const favs_config = {
-  general: [
+  "ｇｅｎｅｒａｌ　一般": [
     "http://www.gita.cl:8080/lams/index.do",
     "https://www.fayerwayer.com/",
     "https://best.aliexpress.com/?lan=es",
     "http://choromota.elbruto.es/cellule"
   ],
-  social: [
+  "ｓｏｃｉａｌ　社会的": [
     "https://www.facebook.com/",
     "https://web.whatsapp.com/",
     "https://twitter.com/"
   ],
-  oficina: [
+  "ｏｆｉｃｉｎａ　事務所": [
     "https://mail.protonmail.com/login",
     "https://mail.google.com/mail/u/0/#inbox",
     "http://www.bancoestado.cl/imagenes/_personas/home/default.asp",
     "https://secure02.uach.cl/infoalumnos/CheqLogin.aspx?pagina=principal.aspx"
   ],
-  ocio: [
+  "ｍｉｓｃ　その他": [
     "https://www.youtube.com/",
     "https://animeflv.net/",
     "https://myanimelist.net/animelist/juanlatorre",
