@@ -1,12 +1,11 @@
 {
   "name": "Polar",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Personal aesthetics new tab",
-  "permissions": ["declarativeContent", "storage", "tabs"],
+  "permissions": ["storage", "<all_urls>", "http://*/*", "https://*/*"],
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
   "author": "Juan Latorre",
-  "content_security_policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval'; script-src 'unsafe-inline' 'unsafe-eval' 'self'; object-src 'self' 'unsafe-inline' 'unsafe-eval'",
   "manifest_version": 2
 }
