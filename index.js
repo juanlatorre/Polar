@@ -5,6 +5,7 @@ window.onload = function() {
       "http://www.gita.cl:8080/lams/index.do",
       "https://www.fayerwayer.com/",
       "https://best.aliexpress.com/?lan=es",
+      "https://www.reddit.com/",
       "http://choromota.elbruto.es/cellule"
     ],
     "ｓｏｃｉａｌ　社会的": [
