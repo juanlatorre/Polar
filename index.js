@@ -6,12 +6,13 @@ window.onload = function() {
       "https://www.fayerwayer.com/",
       "https://best.aliexpress.com/?lan=es",
       "https://www.reddit.com/",
-      "http://choromota.elbruto.es/cellule"
+      "https://news.ycombinator.com"
     ],
     "ｓｏｃｉａｌ　社会的": [
       "https://www.facebook.com/",
       "https://web.whatsapp.com/",
-      "https://twitter.com/"
+      "https://twitter.com/",
+      "https://www.instagram.com/"
     ],
     "ｏｆｉｃｉｎａ　事務所": [
       "https://mail.protonmail.com/login",
@@ -25,7 +26,8 @@ window.onload = function() {
       "https://myanimelist.net/animelist/juanlatorre",
       "https://myanimelist.net/mangalist/juanlatorre",
       "https://tumangaonline.me/",
-      "https://www.netflix.com/browse"
+      "https://www.netflix.com/browse",
+      "http://choromota.elbruto.es/cellule"
     ]
   };
 
